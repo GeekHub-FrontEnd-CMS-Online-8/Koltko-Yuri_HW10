@@ -1,0 +1,209 @@
+.menu {
+
+  &__index {
+    & a {
+
+      &:hover {
+        background-color: #74c7d5;
+        padding: 35px 25px 10px 25px;
+        border-radius:0 0 20px 20px;
+        transition: 1s;
+      }
+
+    }
+  }
+
+  &__services {
+    & a {
+
+      &:hover {
+        background-color: #df5c64;
+        padding: 35px 25px 10px 25px;
+        border-radius:0 0 20px 20px;
+        transition: 1s;
+      }
+
+    }
+  }
+
+  &__about {
+    & a {
+
+      &:hover {
+        background-color: #91778e;
+        padding: 35px 25px 10px 25px;
+        border-radius:0 0 20px 20px;
+        transition: 1s;
+      }
+
+    }
+  }
+
+  &__work {
+    & a {
+
+      &:hover {
+        background-color: #a1ca6c;
+        padding: 35px 25px 10px 25px;
+        border-radius:0 0 20px 20px;
+        transition: 1s;
+      }
+
+    }
+  }
+
+  &__contacts {
+    & a {
+
+      &:hover {
+        background-color: #82c8bd;
+        padding: 35px 25px 10px 25px;
+        border-radius:0 0 20px 20px;
+        transition: 1s;
+      }
+
+    }
+  }
+
+}
+
+
+
+.about {
+  &__block {
+
+    &:hover {
+      .about__circuit {
+        border: 5px solid #df5c64;
+        border-radius: 80px;
+        color: #df5c64;
+        transition: 1s;
+      }
+
+      .about__position {
+
+        color: #df5c64;
+        transition: 1s;
+      }
+
+      .about__block-servic {
+
+        color: #fff;
+        transition: 1s;
+      }
+      .facebook {
+        background-color: #4267b2;
+      }
+
+      .twitter {
+        background-color: #1da1f2;
+      }
+
+      .google {
+        background-color: #ec407a;
+      }
+
+      .linkedin {
+        background-color: #0077b5;
+      }
+    }
+
+
+
+
+  }
+
+
+}
+
+.galerey {
+
+  &__img {
+
+    &:hover .galerey__img-hover {
+      display: block;
+      transition: 2s;
+    }
+  }
+}
+
+
+.menu {
+
+  &__galerey {
+
+    &-cat {
+
+      & a:hover {
+        background-color: #f5c149;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+
+#enter .quest__text:focus {
+     background: #fff;
+     border: none;
+   }
+   #enter .quest__commit:focus {
+        background: #fff;
+        border: none;
+      }
+
+
+.services {
+  &__block {
+
+    &:hover {
+      background-color: #943b40cc;
+      transition: 2s;
+    }
+    &:hover .services__block-icon {
+      transform: scaleX(-1);
+      transition: 2s;
+
+    }
+  }
+}
+
+.footer {
+
+  &__facebook {
+
+    &:hover {
+      background-color: #4267b2;
+    }
+  }
+
+  &__twitter {
+
+    &:hover {
+      background-color: #1da1f2;
+    }
+  }
+
+  &__google {
+
+    &:hover {
+      background-color: #ec407a;
+    }
+  }
+
+  &__linkedin {
+
+    &:hover {
+      background-color: #0077b5;
+    }
+  }
+
+
+}
+
+.quest__send {
+
+  &:hover {
+    background: rgba(223, 92, 100, 0.8);
+  }
+}

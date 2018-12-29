@@ -1,0 +1,114 @@
+.body__services {
+  background-image: url(../img/services_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #b24a50;
+  min-height: 1000px;
+  background-position: center;
+}
+
+.services h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.services__text {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.services__desc {
+  font-size: 14px;
+  color: #ffcccf;
+}
+
+.services__block {
+  width: 260px;
+  height: 400px;
+  background-color: rgba(200, 83, 90, 0.8);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 30px 0;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 7px;
+}
+
+.services__block-all {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services__block-icon {
+  height: 120px;
+  width: 120px;
+  background: #fff;
+  -webkit-border-radius: 70px;
+          border-radius: 70px;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services__block-icon i {
+  color: #df5c64;
+  font-size: 65px;
+  margin: auto;
+}
+
+.services__block-servic {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.services__block-desc {
+  font-size: 14px;
+  color: #fff;
+  padding: 0 25px;
+}
+
+.services__circuit {
+  height: 140px;
+  width: 140px;
+  background-color: #c8535a;
+  border: 5px solid #fff;
+  -webkit-border-radius: 70px;
+          border-radius: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}

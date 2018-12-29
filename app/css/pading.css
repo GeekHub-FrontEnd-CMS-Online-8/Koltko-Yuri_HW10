@@ -1,0 +1,23 @@
+.header__pading {
+  padding: 30px 0 100px 0;
+}
+
+.services__pading {
+  padding: 0 0 120px 0;
+}
+
+.galerey__pading {
+  padding: 20px;
+}
+
+.galerey__pading-desc {
+  padding: 0 0 20px 0;
+}
+
+.galerey__pading-gal {
+  padding: 30px 0 0 0;
+}
+
+.work__desc-padding {
+  padding: 0 0 30px 0;
+}

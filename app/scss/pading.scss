@@ -1,0 +1,39 @@
+.header {
+  &__pading {
+  padding: 30px 0 100px 0;
+}
+}
+
+.services {
+
+  &__pading {
+  padding: 0 0 120px 0;
+}
+
+}
+
+.galerey {
+
+  &__pading {
+    padding: 20px;
+
+    &-desc {
+      padding: 0 0 20px 0;
+    }
+
+    &-gal {
+      padding: 30px 0 0 0;
+    }
+
+}
+
+}
+
+
+.work {
+  &__desc {
+    &-padding {
+      padding: 0 0 30px 0;
+    }
+  }
+}

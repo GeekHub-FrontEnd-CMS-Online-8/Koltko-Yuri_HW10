@@ -1,0 +1,92 @@
+.body {
+  &__services {
+    background-image: url(../img/services_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #b24a50;
+    min-height: 1000px;
+    background-position: center;
+  }
+}
+
+.services {
+
+  & h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+  }
+
+  &__text {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__desc {
+    font-size: 14px;
+    color: #ffcccf;
+  }
+
+  &__block {
+    width: 260px;
+    height: 400px;
+    background-color: rgba(200, 83, 90, 0.80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 30px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 7px;
+
+    &-all {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &-icon {
+      height: 120px;
+      width: 120px;
+      background: #fff;
+      border-radius: 70px;
+      margin: auto;
+      display: flex;
+
+      & i {
+        color: #df5c64;
+        font-size: 65px;
+        margin: auto;
+      }
+
+
+
+    }
+
+    &-servic {
+      font-size: 30px;
+      color: #fff;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    &-desc {
+      font-size: 14px;
+      color: #fff;
+      padding: 0 25px;
+    }
+
+  }
+
+  &__circuit {
+    height: 140px;
+    width: 140px;
+    background-color: #c8535a;
+    border: 5px solid#fff;
+    border-radius: 70px;
+    display: flex;
+  }
+
+}

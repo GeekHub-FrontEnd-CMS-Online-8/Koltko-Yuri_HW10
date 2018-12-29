@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+    <title>Acrostia about</title>
+</head>
+<body>
+  <div class="body__contacts">
+<header>
+  <div class="container">
+  <div class="header__blok header__pading">
+  <div class="logo">
+    <a href="index.html" class="logo_img"><img src="img/logo.png" alt="Logo"></a>
+  </div>
+  <button class="top-nav-btn">
+  <i class="fas fa-bars"></i>
+  </button>
+  <nav>
+    <ul class="menu">
+      <li class="menu__contacts">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="contacts.html">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+    </div>
+  </div>
+</header>
+<div id="about">
+  <div class="container">
+    <div class="about">
+    <h1>CONTACT US</h1>
+
+    <p class="work__desc work__desc-padding">Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.</p>
+    </div>
+    <div class="contacts__blok">
+      <div class="contacts__blok-address">
+        <div class="address">
+          <p class="address__add">Address</p>
+          <p class="address__acr">Acrostia</p>
+          <p class="address__sev">Sevenoaks Rd
+            <br>
+Sevenoaks TN14 7HR, UK</p>
+
+        </div>
+        <div class="phone">
+          <div class="phone__p">
+            Phone:
+            <br>
+          Fax:
+          <br>
+          E-mail:
+          <br>
+          Skype:</div>
+          <div class="phone__n">
+            +44 555 555 555
+            <br>
+            +44 556  555 555
+            <br>
+            info@acrostia.com
+            <br>
+            Ac0stia
+          </div>
+        </div>
+      </div>
+      <div class="contacts__blok-map">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20768.729103216734!2d32.1010579!3d49.40718215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1545949160580" width="260" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+      </div>
+      <div class="contacts__blok-quest">
+        <p>Ask a question</p>
+        <form action="index.html" method="post" id="enter">
+          <div class="quest__text-blok">
+          <input type="text" name="name" value="Name" class="quest__text">
+          <input type="email" name="email" value="Email" class="quest__text">
+          </div>
+
+          <textarea name="text" rows="8" class="quest__commit"></textarea>
+          <br>
+          <input type="submit" name="" value="Send" class="quest__send">
+
+        </form>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+</div>
+</div>
+
+<div id="footer">
+  <div class="footer">
+  <a href="https://facebook.com" target="_blank" class="footer__facebook "><i class="fab fa-facebook-f"></i></a>
+  <a href="https://twitter.com" target="_blank" class="footer__twitter"><i class="fab fa-twitter"></i></a>
+  <a href="https://google.com" target="_blank" class="footer__google"><i class="fab fa-google-plus-g google"></i></a>
+  <a href="https://www.linkedin.com" target="_blank" class="footer__linkedin"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+
+<script>
+
+$(document).ready(function() {
+ var menuBtn = $('.top-nav-btn');
+    var menu = $('.menu');
+    menuBtn.on('click', function(event){
+        event.preventDefault();
+        menu.toggleClass('menu__activ');
+    });
+
+});
+
+</script>
+</body>
+</html>

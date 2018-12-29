@@ -1,0 +1,118 @@
+.body__work {
+  background-image: url(../img/work_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+  background-position: center;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: #94b963;
+}
+
+.work__desc {
+  font-size: 14px;
+  color: #fff;
+}
+
+.menu__galerey {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.menu__galerey-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.menu__galerey-cat a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 30px;
+}
+
+.galerey {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.galerey__img {
+  width: 260px;
+  height: 250px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  margin: 7px;
+}
+
+.galerey__img-bg {
+  height: 50px;
+  width: 260px;
+  background-color: #fff;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.galerey__img-bg span {
+  margin: auto;
+  color: #727272;
+}
+
+.galerey__img-bg:after {
+  content: '';
+  position: absolute;
+  left: 45%;
+  bottom: 50px;
+  border: 20px solid transparent;
+  border-bottom: 20px solid #fff;
+}
+
+.galerey__img-hover {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  right: 0;
+  top: 0;
+  background: rgba(61, 76, 41, 0.7);
+  padding: 50px;
+  display: none;
+}
+
+.galerey__img-hover i {
+  font-size: 50px;
+  margin: 25px auto;
+}
