@@ -39,6 +39,11 @@
   max-width: 540px;
 }
 
+.contacts__blok-map iframe {
+  width: 260px;
+  height: 220px;
+}
+
 .quest__text {
   height: 40px;
   width: 48%;

@@ -103,7 +103,7 @@
 }
 
 .services__block:hover {
-  background-color: #943b40cc;
+  background-color: rgba(148, 59, 64, 0.8);
   -webkit-transition: 2s;
   transition: 2s;
 }
